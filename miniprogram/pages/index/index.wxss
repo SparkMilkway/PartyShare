@@ -7,7 +7,7 @@ page {
   justify-content: flex-start;
 }
 
-.userinfo, .uploader, .tunnel {
+.userinfo, .uploader, .tunnel, .timeDisplay {
   margin-top: 40rpx;
   height: 140rpx;
   width: 100%;
@@ -45,7 +45,7 @@ page {
   border: none;
 }
 
-.uploader, .tunnel {
+.uploader, .tunnel, .timeDisplay {
   height: auto;
   padding: 0 0 0 40rpx;
   flex-direction: column;
@@ -57,7 +57,14 @@ page {
   width: 100%;
   line-height: 52px;
   font-size: 34rpx;
-  color: #007aff;
+  color: #394bec;
+}
+
+.time-text {
+  width: 100%;
+  line-height: 52px;
+  font-size: 30rpx;
+  color:#222;
 }
 
 .uploader-container {
